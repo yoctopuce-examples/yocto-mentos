@@ -266,16 +266,16 @@ public class PoolControlActivity extends Activity
                 e.printStackTrace();
                 res = e.getLocalizedMessage();
             }
-            publishProgress("....");
-            YAPI.FreeAPI();
             publishProgress(".....");
+            YAPI.FreeAPI();
+            publishProgress("......");
             return res;
         }
 
 
         private String getPoolState() throws YAPI_Exception
         {
-            publishProgress("find pos");
+            publishProgress("....");
             int position = _servo.get_position();
             if (position == CLOSE_POSTION) {
                 return RESULT_CLOSE;
