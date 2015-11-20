@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Yocto-Mentos</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="released">Released</string>
+    <string name="opened">Opened</string>
+    <string name="closed">Closed</string>
+    <string name="pref_user_name">User</string>
+    <string name="pref_user_name_summary">Username of the YoctoHub</string>
+    <string name="pref_password">Password</string>
+    <string name="pref_password_summary">Password of YoctoHub</string>
+    <string name="pref_hostname">Hostname</string>
+    <string name="pref_hostname_summary">Hostname or IP</string>
+    <string name="action_settings">Settings</string>
+    <string name="pref_inverted_summary">Invert Open/Close state</string>
+    <string name="pref_inverted">Invert state</string>
+    <string name="unknown">Unknown</string>
+
+</resources>
